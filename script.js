@@ -1,9 +1,9 @@
 const config = {
     title: "The stages of our partner journey",
-    question: "",
+    question: "There are four main stages of our partner journey.",
     image_on: true,
     image: "https://a.storyblok.com/f/112136/373x445/175f800354/lucia-8.png",
-    selection_title: "Select the option to reveal the descriptions:",
+    selection_title: "Select the option to reveal their descriptions:",
     selection_options: [
         "Aware",
         "Engage",
