@@ -1,34 +1,34 @@
 const config = {
-    title: "Inform your content with qualitative data",
-    question: "There are several tools you can use to understand which content your audience is actively engaging with.",
+    title: "The stages of our partner journey",
+    question: "",
     image_on: true,
     image: "https://a.storyblok.com/f/112136/373x445/175f800354/lucia-8.png",
-    selection_title: "Select the tool name below to see how:",
+    selection_title: "Select the option to reveal the descriptions:",
     selection_options: [
-        "Buzzsumo",
-        "Mentionlytics",
-        "Audiense",
-        "Google Trends"
+        "Aware",
+        "Engage",
+        "Enable",
+        "Retain"
     ],
     answer_options: [
-        "See how content is shared and engaged with.",
-        "Useful for monitoring your own content for measurement and benchmarking.",
-        "A great Twitter tool to monitor trends, build and segment lists of key users, monitor content performance and more.",
-        "Can show you how many people are talking about a topic. You can cross reference it with Reddit, Quora or a social media platform to validate the data and make a call on how impactful that content is."
+        "",
+        "",
+        "",
+        ""
     ],
     answer_background_colour: "rgba(37, 81, 123, 0.5)",
     answer_font_colour: "white",
     big_answer_image: [
         "https://a.storyblok.com/f/112136/1001x354/be5144572e/aware.png",
-        "https://a.storyblok.com/f/112136/446x446/3ea9d4491c/2.png",
-        "https://a.storyblok.com/f/112136/446x446/1cadc0e6c3/3.png",
-        "https://a.storyblok.com/f/112136/446x446/0c7f465cc6/4.png",
+        "https://a.storyblok.com/f/112136/1001x344/10c87a07bb/engage.png",
+        "https://a.storyblok.com/f/112136/1001x305/80028908b4/enable.png",
+        "https://a.storyblok.com/f/112136/1001x311/17a6262e25/retain.png",
     ],
     small_answer_image: [
-        "https://a.storyblok.com/f/112136/446x446/cf944b253b/1.png",
-        "https://a.storyblok.com/f/112136/446x446/3ea9d4491c/2.png",
-        "https://a.storyblok.com/f/112136/446x446/1cadc0e6c3/3.png",
-        "https://a.storyblok.com/f/112136/446x446/0c7f465cc6/4.png",
+        "",
+        "",
+        "",
+        "",
     ],
     background_colour: "rgba(37, 81, 123, 1)",
     background_image: "https://a.storyblok.com/f/112136/1920x1409/5ba98e7f92/texture-bg-5efdcf3715f790-74747584-606d864d1b22d1-55861802.jpg",
