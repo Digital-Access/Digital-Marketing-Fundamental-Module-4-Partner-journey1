@@ -125,6 +125,14 @@ config.selection_options.forEach(element => {
         answer.textContent = config.answer_options[correctIndex]
         smallAnswerImage.src = config.small_answer_image[correctIndex]
        
+        if (config.answer_options[correctIndex].length != 0 || !config.answer_options[correctIndex] === " ") {
+            smallContainer.style.margin = '1rem'
+            largeImageContainer.style.paddingBottom = 0
+        } else {
+            smallContainer.style.margin = 0
+            largeImageContainer.style.paddingBottom = '1rem'
+        }
+        
         if (config.small_answer_image[correctIndex].length != 0 || !config.small_answer_image[correctIndex] === " ") {
             smallAnswerImage.style.marginRight = '1rem'
         } else {
